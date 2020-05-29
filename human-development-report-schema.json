@@ -1,0 +1,51 @@
+{
+    "created": "2020-05-29",
+    "description": "\n        En 1990, le premier rapport sur le d\u00e9veloppement humain a introduit une nouvelle approche pour\n        faire progresser le bien-\u00eatre de l'homme. Le d\u00e9veloppement humain - ou l'approche du d\u00e9veloppement humain - consiste \u00e0\n        l'\u00e9largissement de la richesse de la vie humaine, plut\u00f4t que simplement de la richesse de l'\u00e9conomie dans laquelle\n        les \u00eatres humains vivent. Il s'agit d'une approche ax\u00e9e sur les personnes, leurs possibilit\u00e9s et leurs choix.",
+    "fields": [
+        {
+            "constraints": {
+                "required": true
+            },
+            "description": "Nom de chaque pays.",
+            "name": "country_name",
+            "title": "Country",
+            "type": "string"
+        },
+        {
+            "description": "year of survey for every country.",
+            "name": "survey_year",
+            "title": "Survey_year",
+            "type": "year"
+        },
+        {
+            "description": "Human Development Index Category derived from the HDI Rank.",
+            "name": "hdi_category",
+            "title": "HDI Category",
+            "type": "string"
+        },
+        {
+            "description": "Indicator described in the data series.",
+            "name": "indicator_name",
+            "title": "Indicator Name",
+            "type": "string"
+        },
+        {
+            "description": "Reference to data source.",
+            "name": "reference",
+            "title": "Reference",
+            "type": "string"
+        },
+        {
+            "constraints": {
+                "required": true
+            },
+            "description": "Value for the Year and Indicator Name.",
+            "name": "values",
+            "title": "Values",
+            "type": "number"
+        }
+    ],
+    "name": "human-development-report",
+    "title": "UN Human Development Report 2007 - 2008",
+    "updated": "2020-05-29"
+}
